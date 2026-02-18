@@ -105,7 +105,8 @@ with tab_list:
                 if row['id'] and str(row['id']).strip() != "":
                     try:
                         clean_id = int(float(row['id']))
-                        res_url = f"https://disneyworld.disney.go.com/dining-res/restaurant-search/booking-details/?restaurantId={clean_id}&date={f_date}&partySize={party}"
+                        # Updated robust URL format
+                        res_url = f"https://disneyworld.disney.go.com/dining-res/restaurant-search/results/?searchDate={f_date}&searchTime=80000002&partySize={party}&id={clean_id}&type=restaurant"
                         st.link_button("📅 Disney", res_url, type="primary", use_container_width=True)
                     except:
                         st.caption("Res ID Error")
