@@ -1,1 +1,340 @@
-name,loc,type,id,ot,disc,hh,slug,lat,lon
+name,loc,type,id,ot,disc,hh,slug,lat,lon, tips
+Be Our Guest Restaurant,Magic Kingdom,Table Service,90002476,,AP (10%) | DVC (10%),,be-our-guest-restaurant,28.4214,-81.5809
+Cinderella's Royal Table,Magic Kingdom,Table Service,90002488,,AP (10%) | DVC (10%),,cinderellas-royal-table,28.4195,-81.5812
+The Crystal Palace,Magic Kingdom,Table Service,90002492,,AP (10%) | DVC (10%) | Visa (10%),,crystal-palace,28.4182,-81.5815
+The Diamond Horseshoe,Magic Kingdom,Table Service,90002497,,AP (10%) | DVC (10%) | Visa (10%),,diamond-horseshoe,28.4189,-81.5836
+Liberty Tree Tavern,Magic Kingdom,Table Service,90002525,,AP (10%) | DVC (10%) | Visa (10%),,liberty-tree-tavern,28.4194,-81.5825
+The Plaza Restaurant,Magic Kingdom,Table Service,90002580,,AP (10%) | DVC (10%) | Visa (10%),,plaza-restaurant,28.4189,-81.5810
+Skipper Canteen,Magic Kingdom,Table Service,18118080,,AP (10%) | DVC (10%) | Visa (10%),,skipper-canteen,28.4183,-81.5842
+Tony's Town Square Restaurant,Magic Kingdom,Table Service,90002621,,AP (10%) | DVC (10%) | Visa (10%),,tonys-town-square-restaurant,28.4172,-81.5810
+Casey's Corner,Magic Kingdom,Quick Service,,,None,,caseys-corner,28.4177,-81.5814
+Columbia Harbour House,Magic Kingdom,Quick Service,,,None,,columbia-harbour-house,28.4201,-81.5828
+Cosmic Ray's Starlight Café,Magic Kingdom,Quick Service,,,None,,cosmic-rays-starlight-cafe,28.4194,-81.5794
+The Friar's Nook,Magic Kingdom,Quick Service,,,None,,friars-nook,28.4204,-81.5813
+Gaston's Tavern,Magic Kingdom,Quick Service,,,None,,gastons-tavern,28.4216,-81.5802
+Golden Oak Outpost,Magic Kingdom,Quick Service,,,None (Seasonal),,golden-oak-outpost,28.4188,-81.5847
+The Lunching Pad,Magic Kingdom,Quick Service,,,None,,lunching-pad,28.4186,-81.5792
+Main Street Bakery,Magic Kingdom,Quick Service,,,10% AP (Select Items),,main-street-bakery,28.4173,-81.5814
+Pecos Bill Tall Tale Inn,Magic Kingdom,Quick Service,,,None,,pecos-bill-tall-tale-inn-and-cafe,28.4182,-81.5843
+Pinocchio Village Haus,Magic Kingdom,Quick Service,,,None,,pinocchio-village-haus,28.4205,-81.5819
+Sleepy Hollow Refreshments,Magic Kingdom,Quick Service,,,None,,sleepy-hollow,28.4192,-81.5819
+Tortuga Tavern,Magic Kingdom,Quick Service,,,None (Seasonal),,tortuga-tavern,28.4183,-81.5847
+Tomorrowland Terrace Restaurant,Magic Kingdom,Quick Service,,,None (Seasonal),,tomorrowland-terrace-restaurant,28.4181,-81.5799
+Aloha Isle,Magic Kingdom,Snack,,,None,,aloha-isle,28.4184,-81.5840
+Auntie Gravity's Galactic Goodies,Magic Kingdom,Snack,,,None,,auntie-gravitys-galactic-goodies,28.4189,-81.5792
+Big Top Treats,Magic Kingdom,Snack,,,20% AP (Pre-packaged Treats),,big-top-treats,28.4211,-81.5786
+Cheshire Café,Magic Kingdom,Snack,,,None,,cheshire-cafe,28.4201,-81.5810
+Cool Ship,Magic Kingdom,Snack,,,None,,cool-ship,28.4189,-81.5798
+Energy Bytes,Magic Kingdom,Snack,,,None,,energy-bytes,28.4201,-81.5788
+Joffrey's Coffee & Tea Revive,Magic Kingdom,Snack,,,20% AP | 20% DVC,,joffreys-coffee-tea-revive,28.4185,-81.5795
+Liberty Square Market,Magic Kingdom,Snack,,,None,,liberty-square-market,28.4199,-81.5824
+Main Street Confectionery,Magic Kingdom,Snack,,,20% AP (Pre-packaged Treats),,main-street-confectionery,28.4172,-81.5814
+Plaza Ice Cream Parlor,Magic Kingdom,Snack,,,None,,plaza-ice-cream-parlor,28.4186,-81.5812
+Prince Eric's Village Market,Magic Kingdom,Snack,,,None,,prince-erics-village-market,28.4212,-81.5800
+Storybook Treats,Magic Kingdom,Snack,,,None,,storybook-treats,28.4205,-81.5814
+Sunshine Tree Terrace,Magic Kingdom,Snack,,,None,,sunshine-tree-terrace,28.4182,-81.5834
+Westward Ho,Magic Kingdom,Snack,,,None,,westward-ho,28.4191,-81.5838
+Akershus Royal Banquet Hall,Epcot,Table Service,90002462,,AP (10%) | DVC (10%),,akershus-royal-banquet-hall,28.3702,-81.5473
+Biergarten Restaurant,Epcot,Table Service,90002477,,AP (10%) | DVC (10%),,biergarten-restaurant,28.3705,-81.5447
+Chefs de France,Epcot,Table Service,90002521,,AP (10%) | DVC (10%),,les-chefs-de-france,28.3683,-81.5478
+Coral Reef Restaurant,Epcot,Table Service,90002490,,AP (10%) | DVC (10%),,coral-reef-restaurant,28.3751,-81.5524
+Garden Grill Restaurant,Epcot,Table Service,90002511,,AP (10%) | DVC (10%),,garden-grill-restaurant,28.3750,-81.5530
+La Crêperie de Paris,Epcot,Table Service,19488390,,AP (10%) | DVC (10%),,la-creperie-de-paris,28.3678,-81.5482
+La Hacienda de San Angel,Epcot,Table Service,15152206,https://www.opentable.com/r/la-hacienda-de-san-angel-lake-buena-vista,AP (10%) | DVC (10%),,la-hacienda-de-san-angel,28.3703,-81.5485
+Le Cellier Steakhouse,Epcot,Table Service,90002523,,AP (10%) | DVC (10%),,le-cellier-steakhouse,28.3711,-81.5507
+Monsieur Paul,Epcot,Table Service,90002543,,None,,monsieur-paul,28.3684,-81.5479
+Nine Dragons Restaurant,Epcot,Table Service,90002553,,AP (10%) | DVC (10%),,nine-dragons-restaurant,28.3713,-81.5461
+Rose & Crown Dining Room,Epcot,Table Service,90002591,,AP (10%) | DVC (10%),,rose-and-crown-dining-room,28.3696,-81.5505
+San Angel Inn Restaurante,Epcot,Table Service,90002593,https://www.opentable.com/r/san-angel-inn-lake-buena-vista,AP (10%) | DVC (10%),,san-angel-inn-restaurante,28.3692,-81.5478
+Shiki-Sai: Sushi Izakaya,Epcot,Table Service,19688756,,AP (10%) | DVC (10%),,shiki-sai-sushi-izakaya,28.3678,-81.5440
+Space 220 Restaurant,Epcot,Table Service,19515902,,10% AP (Lunch/Lounge Only),,space-220-restaurant,28.3758,-81.5482
+Spice Road Table,Epcot,Table Service,17616238,,AP (10%) | DVC (10%),,spice-road-table,28.3678,-81.5463
+Takumi-Tei,Epcot,Table Service,19321303,,None,,takumi-tei,28.3675,-81.5441
+Teppan Edo,Epcot,Table Service,90002613,,AP (10%) | DVC (10%),,teppan-edo,28.3678,-81.5439
+Tutto Italia Ristorante,Epcot,Table Service,90002624,https://www.opentable.com/tutto-italia-ristorante,AP (10%) | DVC (10%),,tutto-italia-ristorante,28.3697,-81.5436
+Via Napoli Ristorante,Epcot,Table Service,15551381,https://www.opentable.com/via-napoli,AP (10%) | DVC (10%),,via-napoli-ristorante-e-pizzeria,28.3695,-81.5432
+Connections Eatery,Epcot,Quick Service,,,None,,connections-eatery,28.3753,-81.5492
+Connections Café,Epcot,Quick Service,,,10% AP (Select Items),,connections-cafe,28.3751,-81.5492
+Crêpes À Emporter,Epcot,Quick Service,,,None,,crepes-a-emporter,28.3678,-81.5482
+Katsura Grill,Epcot,Quick Service,,,None,,katsura-grill,28.3678,-81.5441
+Kringla Bakeri Og Kafe,Epcot,Quick Service,,,None,,kringla-bakeri-og-kafe,28.3702,-81.5473
+La Cantina de San Angel,Epcot,Quick Service,,,None,,la-cantina-de-san-angel,28.3703,-81.5485
+Les Halles Boulangerie-Patisserie,Epcot,Quick Service,,,None,,les-halles-boulangerie-patisserie,28.3683,-81.5478
+Lotus Blossom Café,Epcot,Quick Service,,,None,,lotus-blossom-cafe,28.3713,-81.5461
+Refreshment Outpost,Epcot,Quick Service,,,None,,refreshment-outpost,28.3708,-81.5455
+Refreshment Port,Epcot,Quick Service,,,None,,refreshment-port,28.3695,-81.5515
+Regal Eagle Smokehouse,Epcot,Quick Service,,,None,,regal-eagle-smokehouse,28.3698,-81.5445
+Sommerfest,Epcot,Quick Service,,,None,,sommerfest,28.3705,-81.5447
+Sunshine Seasons,Epcot,Quick Service,,,None,,sunshine-seasons,28.3750,-81.5530
+Yorkshire County Fish Shop,Epcot,Quick Service,,,None,,yorkshire-county-fish-shop,28.3696,-81.5505
+Choza de Margarita,Epcot,Snack/Kiosk,,,None,,choza-de-margarita,28.3702,-81.5484
+Club Cool,Epcot,Snack/Kiosk,,,Free Soda Samples,,club-cool,28.3748,-81.5495
+Fife & Drum Tavern,Epcot,Snack/Kiosk,,,None,,fife-and-drum-tavern,28.3692,-81.5448
+Gelateria Toscana,Epcot,Snack/Kiosk,,,None,,gelateria-toscana,28.3695,-81.5435
+Joffrey's Coffee & Tea (Epcot),Epcot,Snack/Kiosk,,,20% AP | 20% DVC,,joffreys-coffee-tea-revive,28.3696,-81.5512
+Joy of Tea,Epcot,Snack/Kiosk,,,None,,joy-of-tea,28.3712,-81.5463
+Kabuki Café,Epcot,Snack/Kiosk,,,None,,kabuki-cafe,28.3685,-81.5440
+Karamell-Küche,Epcot,Snack/Kiosk,,,20% AP (Pre-packaged),,karamell-kuche,28.3705,-81.5445
+L’Artisan des Glaces,Epcot,Snack/Kiosk,,,None,,l-artisan-des-glaces,28.3682,-81.5475
+La Cava del Tequila,Epcot,Lounge,,,None,,la-cava-del-tequila,28.3694,-81.5475
+Rose & Crown Pub,Epcot,Lounge,,,None,,rose-and-crown-pub,28.3697,-81.5504
+Space 220 Lounge,Epcot,Lounge,19557342,,10% AP Discount,,space-220-lounge,28.3758,-81.5482
+Tutto Gusto Wine Cellar,Epcot,Lounge,,,10% AP,,10% DVC,,tutto-gusto-wine-cellar,28.3695,-81.5435
+50's Prime Time Café,Hollywood Studios,Table Service,90002458,,AP (10%) | DVC (10%),,50s-prime-time-cafe,28.3564,-81.5601
+Hollywood & Vine,Hollywood Studios,Table Service,90002518,,AP (10%) | DVC (10%),,hollywood-and-vine,28.3562,-81.5606
+The Hollywood Brown Derby,Hollywood Studios,Table Service,90002517,,AP (10%) | DVC (10%),,hollywood-brown-derby,28.3566,-81.5587
+Mama Melrose's Ristorante Italiano,Hollywood Studios,Table Service,90002540,,AP (10%) | DVC (10%) | Closes May 11 2026,,mama-melroses-ristorante-italiano,28.3575,-81.5627
+Oga's Cantina,Hollywood Studios,Lounge,19330965,,None,,ogas-cantina,28.3542,-81.5615
+Roundup Rodeo BBQ,Hollywood Studios,Table Service,19623886,,AP (10%) | DVC (10%),,roundup-rodeo-bbq,28.3550,-81.5625
+Sci-Fi Dine-In Theater Restaurant,Hollywood Studios,Table Service,90002598,,AP (10%) | DVC (10%),,sci-fi-dine-in-theater-restaurant,28.3570,-81.5612
+ABC Commissary,Hollywood Studios,Quick Service,,,None,,abc-commissary,28.3575,-81.5606
+Backlot Express,Hollywood Studios,Quick Service,,,None,,backlot-express,28.3567,-81.5615
+Catalina Eddie's,Hollywood Studios,Quick Service,,,None,,catalina-eddies,28.3556,-81.5592
+Docking Bay 7 Food & Cargo,Hollywood Studios,Quick Service,,,None,,docking-bay-7-food-and-cargo,28.3547,-81.5622
+Dockside Diner,Hollywood Studios,Quick Service,,,None,,dockside-diner,28.3562,-81.5598
+Fairfax Fare,Hollywood Studios,Quick Service,,,None,,fairfax-fare,28.3557,-81.5590
+PizzeRizzo,Hollywood Studios,Quick Service,,,None | Closes June 8 2026,,pizzerizzo,28.3575,-81.5631
+Ronto Roasters,Hollywood Studios,Quick Service,,,None,,ronto-roasters,28.3545,-81.5617
+Rosie's All-American Café,Hollywood Studios,Quick Service,,,None,,rosies-all-american-cafe,28.3556,-81.5594
+The Trolley Car Café,Hollywood Studios,Quick Service,,,10% AP (Select Items),,trolley-car-cafe,28.3569,-81.5588
+Woody's Lunch Box,Hollywood Studios,Quick Service,,,None,,woodys-lunch-box,28.3552,-81.5635
+Anaheim Produce,Hollywood Studios,Snack/Kiosk,,,None,,anaheim-produce,28.3559,-81.5593
+BaseLine Tap House,Hollywood Studios,Lounge,,,AP (10%) | DVC (10%),Pub Vibes - Craft Beer & Pretzels,baseline-tap-house,28.3578,-81.5621
+Dinosaur Gertie's,Hollywood Studios,Snack/Kiosk,,,None (Seasonal),,dinosaur-gerties-ice-cream-of-extinction,28.3565,-81.5599
+Epic Eats,Hollywood Studios,Snack/Kiosk,,,None,,epic-eats,28.3567,-81.5608
+Hollywood Brown Derby Lounge,Hollywood Studios,Lounge,,,AP (10%) | DVC (10%),Walk-up only; Cobb Salad available,hollywood-brown-derby-lounge,28.3565,-81.5587
+Hollywood Scoops,Hollywood Studios,Snack/Kiosk,,,None,,hollywood-scoops,28.3556,-81.5590
+Ice Cold Hydraulics,Hollywood Studios,Snack/Kiosk,,,None,,ice-cold-hydraulics,28.3579,-81.5616
+Joffrey's Coffee & Tea (Studios),Hollywood Studios,Snack/Kiosk,,,20% AP | 20% DVC,,joffreys-coffee-tea-revive,28.3548,-81.5626
+Kat Saka's Kettle,Hollywood Studios,Snack/Kiosk,,,None,,kat-sakas-kettle,28.3546,-81.5615
+KRNR The Rock Station,Hollywood Studios,Snack/Kiosk,,,None,,krnr-the-rock-station,28.3553,-81.5585
+Market (Pixar Plaza),Hollywood Studios,Snack/Kiosk,,,None,,market,28.3564,-81.5614
+Milk Stand,Hollywood Studios,Snack/Kiosk,,,None,,milk-stand,28.3543,-81.5613
+Peevy's Polar Pipeline,Hollywood Studios,Snack/Kiosk,,,None,,peevys-polar-pipeline,28.3563,-81.5595
+Sunshine Day Bar,Hollywood Studios,Lounge,,,None,,sunshine-day-bar,28.3558,-81.5590
+Tune-In Lounge,Hollywood Studios,Lounge,,,AP (10%) | DVC (10%),Full 50s Prime Time Menu Available,tune-in-lounge,28.3565,-81.5601
+Nomad Lounge,Animal Kingdom,Lounge,,,AP (10%) | DVC (10%),Waterfront Views; Walk-up Waitlist Only,nomad-lounge,28.3582,-81.5907
+Rainforest Cafe (Animal Kingdom),Animal Kingdom,Table Service,90002584,,AP (10%) | Landry's Select,Located at Main Entrance,rainforest-cafe-animal-kingdom,28.3533,-81.5905
+Tiffins Restaurant,Animal Kingdom,Table Service,18361812,,AP (10%) | DVC (10%),Signature Dining,tiffins-restaurant,28.3582,-81.5907
+Tusker House Restaurant,Animal Kingdom,Table Service,90002622,,AP (10%) | DVC (10%),Character Buffet (Donald Duck),tusker-house-restaurant,28.3601,-81.5925
+Yak & Yeti Restaurant,Animal Kingdom,Table Service,13286043,,AP (10%) | Landry's Select,Pan-Asian; Huge Portions,yak-and-yeti-restaurant,28.3592,-81.5891
+Creature Comforts,Animal Kingdom,Quick Service,,,10% AP (Select Items),Starbucks Location,creature-comforts,28.3585,-81.5905
+Flame Tree Barbecue,Animal Kingdom,Quick Service,,,None,Famous for Ribs & Waterfront Seating,flame-tree-barbecue,28.3582,-81.5898
+Harambe Market,Animal Kingdom,Quick Service,,,None,Reopening March 2026,harambe-market,28.3601,-81.5915
+Pizzafari,Animal Kingdom,Quick Service,,,None,,pizzafari,28.3584,-81.5921
+Restaurantosaurus,Animal Kingdom,Quick Service,,,None,Self-Serve Soda Refills,restaurantosaurus,28.3565,-81.5885
+Satu’li Canteen,Animal Kingdom,Quick Service,,,None,Best Rated: Custom Protein Bowls,satuli-canteen,28.3552,-81.5932
+Yak & Yeti Local Food Cafés,Animal Kingdom,Quick Service,,,None,Great Portions; Outdoor Seating,yak-and-yeti-local-food-cafes,28.3591,-81.5891
+Anandapur Ice Cream Truck,Animal Kingdom,Snack/Kiosk,,,None,,anandapur-ice-cream-truck,28.3589,-81.5896
+Caravan Road,Animal Kingdom,Snack/Kiosk,,,None,,caravan-road,28.3590,-81.5898
+Dawa Bar,Animal Kingdom,Lounge/Bar,,,None,African Beers & Cocktails,dawa-bar,28.3601,-81.5925
+Drinkwallah,Animal Kingdom,Snack/Kiosk,,,None,,drinkwallah,28.3588,-81.5896
+Eight Spoon Café,Animal Kingdom,Snack/Kiosk,,,None,Baked Mac & Cheese,eight-spoon-cafe,28.3586,-81.5902
+Isle of Java,Animal Kingdom,Snack/Kiosk,,,None,,isle-of-java,28.3584,-81.5905
+Joffrey's Coffee & Tea (Animal Kingdom),Animal Kingdom,Snack/Kiosk,,,20% AP | 20% DVC,,joffreys-coffee-tea-revive,28.3595,-81.5910
+Kusafiri Coffee Shop,Animal Kingdom,Snack/Kiosk,,,None,Try the 7-Layer Bar,kusafiri-coffee-shop-and-bakery,28.3601,-81.5923
+Mahindi,Animal Kingdom,Snack/Kiosk,,,None,,mahindi,28.3595,-81.5915
+Mr. Kamal's,Animal Kingdom,Snack/Kiosk,,,None,Famous Seasoned Fries,mr-kamals,28.3588,-81.5905
+Pongu Pongu,Animal Kingdom,Snack/Kiosk,,,None,Night Blossom Drink,pongu-pongu,28.3551,-81.5934
+The Smiling Crocodile,Animal Kingdom,Snack/Kiosk,,,None,,smiling-crocodile,28.3585,-81.5904
+Tamu Tamu Refreshments,Animal Kingdom,Snack/Kiosk,,,None,Dole Whip Location,tamu-tamu-refreshments,28.3601,-81.5920
+Terra Treats,Animal Kingdom,Snack/Kiosk,,,None,New home of Dino-Bite Desserts,terra-treats,28.3583,-81.5915
+Trek Snacks,Animal Kingdom,Snack/Kiosk,,,None,,trek-snacks,28.3595,-81.5888
+Warung Outpost,Animal Kingdom,Snack/Kiosk,,,None,,warung-outpost,28.3589,-81.5891
+The BOATHOUSE,Disney Springs,Table Service,18395610,https://www.opentable.com/the-boathouse-orlando,AP (10%),Waterfront Dining,boathouse-restaurant,28.3713,-81.5165
+Chef Art Smith's Homecomin',Disney Springs,Table Service,18434691,,AP (10%),Moonshine & Southern Comfort,chef-art-smiths-homecomin,28.3712,-81.5173
+City Works Eatery,Disney Springs,Table Service,19310860,https://www.opentable.com/r/city-works-eatery-and-pour-house-lake-buena-vista,None,Mon-Fri 3-5pm ($2 off beer/wine $8 bites),city-works-eatery-and-pour-house,28.3708,-81.5218
+The Edison,Disney Springs,Table Service,18598463,https://www.opentable.com/the-edison-lake-buena-vista,AP (10%),Late-night Entertainment,the-edison,28.3715,-81.5178
+Enzo's Hideaway,Disney Springs,Table Service,18598482,https://www.opentable.com/enzos-hideaway-lake-buena-vista,AP (10%),Speakeasy Vibe,enzos-hideaway,28.3714,-81.5179
+Frontera Cocina,Disney Springs,Table Service,18428801,https://www.opentable.com/frontera-cocina-lake-buena-vista,AP (10%),Rick Bayless Mexican,frontera-cocina,28.3711,-81.5185
+House of Blues,Disney Springs,Table Service,90002519,https://www.opentable.com/house-of-blues-orlando,AP (10%),Live Music,house-of-blues-restaurant,28.3705,-81.5225
+Jaleo by José Andrés,Disney Springs,Table Service,19238382,https://www.opentable.com/r/jaleo-disney-springs-lake-buena-vista,None,Sangria Hour: Daily 4-6pm (Tapas/Drinks),jaleo,28.3708,-81.5215
+Maria & Enzo's,Disney Springs,Table Service,18598471,https://www.opentable.com/r/maria-and-enzos-lake-buena-vista,AP (10%),Italian Elegance,maria-and-enzos,28.3716,-81.5177
+Morimoto Asia,Disney Springs,Table Service,18210355,https://www.opentable.com/morimoto-asia,AP (10% Lunch Only),Iron Chef Dining,morimoto-asia,28.3715,-81.5172
+Paddlefish,Disney Springs,Table Service,18567228,https://www.opentable.com/paddlefish-lake-buena-vista,AP (10%),Dining on a Steamboat,paddlefish,28.3718,-81.5158
+Paradiso 37,Disney Springs,Table Service,13867013,https://www.opentable.com/paradiso-37,None,Daily 3-8pm ($7 Margaritas & Beer),paradiso-37-taste-of-the-americas,28.3713,-81.5170
+Planet Hollywood,Disney Springs,Table Service,90002579,https://www.opentable.com/planet-hollywood-lake-buena-vista,AP (10%),Guy Fieri Menu,planet-hollywood,28.3712,-81.5190
+Raglan Road Irish Pub,Disney Springs,Table Service,90002583,https://www.opentable.com/raglan-road-irish-pub,None,Mon-Fri 11am-5pm ($6 Draughts),raglan-road-irish-pub-and-restaurant,28.3714,-81.5152
+Rainforest Cafe (Springs),Disney Springs,Table Service,90002585,https://www.opentable.com/rainforest-cafe-disney-springs-market-place,AP (10%),Landry's Select Club,rainforest-cafe-disney-springs-marketplace,28.3742,-81.5135
+Splitsville Dining Room,Disney Springs,Table Service,17042296,,AP (10%),Bowling & Sushi,splitsville-luxury-lanes-dining-room,28.3710,-81.5210
+STK Steakhouse,Disney Springs,Table Service,18320141,https://www.opentable.com/stk-orlando,None,Mon-Fri 2:30-6:30pm ($3/$6/$9 Menu),stk-orlando,28.3714,-81.5175
+Summer House on the Lake,Disney Springs,Table Service,19685652,https://www.opentable.com/r/summer-house-on-the-lake-lake-buena-vista,None,Martini Hour: Mon-Fri 3-6pm ($10 Martinis),summer-house-on-the-lake,28.3705,-81.5212
+T-REX,Disney Springs,Table Service,13854966,https://www.opentable.com/t-rex-lake-buena-vista,AP (10%),Landry's Select Club,t-rex,28.3725,-81.5145
+Terralina Crafted Italian,Disney Springs,Table Service,18567211,https://www.opentable.com/terralina-crafted-italian-lake-buena-vista,AP (10%),Family Style Italian,terralina-crafted-italian,28.3718,-81.5155
+Wine Bar George,Disney Springs,Table Service,18949887,https://www.opentable.com/r/wine-bar-george-lake-buena-vista,AP (10% Lunch M-F),Master Sommelier Menu,wine-bar-george,28.3715,-81.5168
+4 Rivers Cantina Barbacoa Truck,Disney Springs,Quick Service,,,None,,4-rivers-cantina-barbacoa-food-truck,28.3711,-81.5205
+Amorette's Patisserie,Disney Springs,Quick Service,,,None,Signature Cakes & Pastries,amorettes-patisserie,28.3712,-81.5178
+B.B. Wolf's Sausage Co.,Disney Springs,Quick Service,,,None,Artisan Sausages,bb-wolfs-sausage-co,28.3725,-81.5152
+Blaze Fast-Fire'd Pizza,Disney Springs,Quick Service,,,10% AP (Lunch only),Build-your-own pizza,blaze-fast-fired-pizza,28.3708,-81.5188
+Chicken Guy!,Disney Springs,Quick Service,,,None,Guy Fieri's 22 Sauces,chicken-guy,28.3712,-81.5186
+Cookes of Dublin,Disney Springs,Quick Service,,,None,Fish & Chips Specialty,cookes-of-dublin,28.3714,-81.5150
+D-Luxe Burger,Disney Springs,Quick Service,,,None,Signature Blend Burgers,d-luxe-burger,28.3712,-81.5178
+The Daily Poutine,Disney Springs,Quick Service,,,None,Global Poutine Flavors,the-daily-poutine,28.3711,-81.5180
+Earl of Sandwich,Disney Springs,Quick Service,,,None,The World's Greatest Sandwich,earl-of-sandwich,28.3728,-81.5140
+eet by Maneet Chauhan,Disney Springs,Quick Service,19688452,,10% AP (11am-5pm),Solarium Reservations Available,eet-by-maneet-chauhan,28.3730,-81.5135
+Morimoto Asia Street Food,Disney Springs,Quick Service,,,None,Pan-Asian Street Fare,morimoto-asia-street-food,28.3715,-81.5172
+Pepe by José Andrés,Disney Springs,Quick Service,,,None,Spanish Bocatas & Sangria,pepe-by-jose-andres,28.3708,-81.5215
+Pizza Ponte,Disney Springs,Quick Service,,,None,Sicilian-Style Slices,pizza-ponte,28.3716,-81.5175
+The Polite Pig,Disney Springs,Quick Service,,,10% AP | 10% DVC,Top-tier BBQ & Bourbon Bar,the-polite-pig,28.3711,-81.5185
+Six Ravens,Disney Springs,Quick Service,,,None,Opening Late 2026 (Savory Hand Pies),six-ravens,28.3715,-81.5165
+Starbucks (Marketplace),Disney Springs,Quick Service,,,10% AP (Select Items),Walk-up Window,starbucks-disney-springs-marketplace,28.3725,-81.5135
+Starbucks (West Side),Disney Springs,Quick Service,,,10% AP (Select Items),Large Waterside Lounge,starbucks-disney-springs-west-side,28.3710,-81.5220
+YeSake Kiosk,Disney Springs,Quick Service,,,None,Custom Poke Bowls,yesake-kiosk,28.3710,-81.5215
+Coca-Cola Rooftop Bar,Disney Springs,Lounge,,,None,Rooftop Views & Soda Flights,coca-cola-store-rooftop-beverage-bar,28.3710,-81.5195
+Dockside Margaritas,Disney Springs,Lounge,,,None,Waterfront Margaritas,dockside-margaritas,28.3722,-81.5148
+Erin McKenna's Bakery NYC,Disney Springs,Snack,,,AP (10%),Vegan & Gluten-Free Specialty,erin-mckennas-bakery-nyc,28.3713,-81.5160
+Everglazed Donuts & Cold Brew,Disney Springs,Snack,,,None,Massive Donuts & Cold Brew,everglazed-donuts-cold-brew,28.3705,-81.5215
+The Ganachery,Disney Springs,Snack,,,AP (20% Pre-packaged),Handcrafted Chocolates,the-ganachery,28.3715,-81.5170
+Ghirardelli Soda Fountain,Disney Springs,Snack,,,None,Famous Hot Fudge Sundaes,ghirardelli-ice-cream-chocolate-shop,28.3735,-81.5145
+Gideon's Bakehouse,Disney Springs,Snack,,,None,Famous 1/2 lb Cookies; Virtual Queue,gideons-bakehouse,28.3716,-81.5165
+Häagen-Dazs,Disney Springs,Snack,,,AP (10%),Premium Ice Cream,haagen-dazs,28.3708,-81.5222
+Jock Lindsey's Hangar Bar,Disney Springs,Lounge,,,AP (10%),Indiana Jones Theme & Cocktails,jock-lindseys-hangar-bar,28.3715,-81.5162
+Salt & Straw,Disney Springs,Snack,,,AP (10% Pints only),Unique Gourmet Ice Cream,salt-and-straw,28.3708,-81.5218
+Swirls on the Water,Disney Springs,Snack,,,None,Dole Whip Flights & Nachos,swirls-on-the-water,28.3725,-81.5145
+Vivoli il Gelato,Disney Springs,Snack,,,None,Traditional Italian Gelato,vivoli-il-gelato,28.3716,-81.5158
+California Grill,Resorts,Table Service,90002481,,AP (10%) | DVC (10%),Signature Dining; Fireworks Views,california-grill,28.4161,-81.5812
+Chef Mickey's,Resorts,Table Service,90002484,,AP (10%) | DVC (10%),Character Dining (Fab 5),chef-mickeys,28.4162,-81.5814
+Steakhouse 71,Resorts,Table Service,19403813,,AP (10%) | DVC (10%),Former Wave Site; Family Dining,steakhouse-71,28.4160,-81.5810
+Contempo Café,Resorts,Quick Service,,,10% AP (Select Items),Next to Chef Mickeys; Monorail view,contempo-cafe,28.4161,-81.5814
+Contemporary Grounds,Resorts,Quick Service,,,20% AP | 20% DVC,Joffrey's Location; Lobby Level,contemporary-grounds,28.4158,-81.5812
+California Grill Lounge,Resorts,Lounge,,,None,Walk-up only; Same Fireworks view,california-grill-lounge,28.4161,-81.5812
+Steakhouse 71 Lounge,Resorts,Lounge,,,AP (10%) | DVC (10%),Great Cocktails & Lounge Burger,steakhouse-71-lounge,28.4160,-81.5810
+Outer Rim,Resorts,Lounge,,,None,Monorail & Bay Lake views,outer-rim,28.4162,-81.5812
+Sand Bar,Resorts,Pool Bar,,,None,Lakeside burgers & drinks,sand-bar,28.4163,-81.5805
+Cove Bar,Resorts,Pool Bar,,,None,Bay Lake Tower Guests only,cove-bar,28.4150,-81.5815
+'Ohana,Resorts,Table Service,90002555,,AP (10%) | DVC (10%),Best Friend Breakfast & Skewers Dinner,ohana,28.4055,-81.5847
+Kona Cafe,Resorts,Table Service,90002522,,AP (10%) | DVC (10%),Try the Tonga Toast,kona-cafe,28.4054,-81.5847
+Capt. Cook's,Resorts,Quick Service,,,None,Famous for Pulled Pork Nachos,capt-cooks,28.4052,-81.5847
+Pineapple Lanai,Resorts,Snack,,,None,Purely Dole Whip & Floats,pineapple-lanai,28.4053,-81.5845
+Trader Sam's Grog Grotto,Resorts,Lounge,,,None,Interactive Tiki Bar; Virtual Waitlist Only,trader-sams-grog-grotto,28.4050,-81.5847
+Trader Sam's Tiki Terrace,Resorts,Lounge,,,None,Outdoor Tiki Bar; Live Music,trader-sams-tiki-terrace,28.4049,-81.5848
+Tambu Lounge,Resorts,Lounge,,,AP (10%) | DVC (10%),Secret: 'Ohana Noodles often available,tambu-lounge,28.4055,-81.5847
+Kona Island,Resorts,Quick Service,,,10% AP (Sushi),Coffee in AM; Sushi in PM,kona-island,28.4055,-81.5848
+Barefoot Pool Bar,Resorts,Pool Bar,,,None,Beachside cocktails & snacks,barefoot-pool-bar,28.4060,-81.5845
+Oasis Pool Bar,Resorts,Pool Bar,,,None,Quiet Pool; Polynesian small plates,oasis-pool-bar,28.4052,-81.5835
+Victoria & Albert's,Resorts,Table Service,90002626,,None,Michelin-Starred; Formal Dress Code,victoria-and-alberts,28.4111,-81.5885
+Cítricos,Resorts,Table Service,90002489,,AP (10%) | DVC (10%),Mary Poppins Returns Theme,citricos,28.4109,-81.5883
+Narcoossee's,Resorts,Table Service,90002551,,AP (10%) | DVC (10%),Waterfront Signature Dining,narcoossees,28.4121,-81.5870
+1900 Park Fare,Resorts,Table Service,90002456,,AP (10%) | DVC (10%),Character Dining (Wish Tiana Mirabel),1900-park-fare,28.4113,-81.5886
+Grand Floridian Cafe,Resorts,Table Service,90002514,,AP (10%) | DVC (10%),Casual Elegance; Great Breakfast,grand-floridian-cafe,28.4111,-81.5887
+Gasparilla Island Grill,Resorts,Quick Service,,,AP (10% Select),Mobile Order; Views of Castle,gasparilla-island-grill,28.4114,-81.5882
+Enchanted Rose,Resorts,Lounge,,,None,Beauty and the Beast Theme,enchanted-rose,28.4109,-81.5882
+Garden View Tea Room,Resorts,Table Service,90002512,,None,Reopening Early 2026; Afternoon Tea,garden-view-tea-room,28.4111,-81.5888
+Cítricos Lounge,Resorts,Lounge,,,AP (10%) | DVC (10%),Signature Cocktails & Apps,citricos-lounge,28.4109,-81.5883
+Beaches Pool Bar & Grill,Resorts,Pool Bar,,,None,Beachside cocktails & snacks,beaches-pool-bar,28.4102,-81.5898
+Courtyard Pool Bar,Resorts,Pool Bar,,,None,Quiet pool drinks & snacks,courtyard-pool-bar,28.4108,-81.5878
+Flying Fish,Resorts,Table Service,90002507,,AP (10%) | DVC (10%),Signature Seafood; Open for Dinner,flying-fish,28.3667,-81.5562
+Trattoria al Forno,Resorts,Table Service,17664871,,AP (10%) | DVC (10%),Authentic Italian; Great Breakfast,trattoria-al-forno,28.3669,-81.5560
+Yachtsman Steakhouse,Resorts,Table Service,90002629,,AP (10%) | DVC (10%),Signature Steakhouse; Dress Code,yachtsman-steakhouse,28.3713,-81.5583
+Ale & Compass Restaurant,Resorts,Table Service,90002464,,AP (10%) | DVC (10%),Gastropub style; Hidden Gem,ale-and-compass-restaurant,28.3715,-81.5575
+Beaches & Cream Soda Shop,Resorts,Table Service,90002469,,AP (10%) | DVC (10%),Famous for Kitchen Sink Sundae,beaches-and-cream-soda-shop,28.3710,-81.5595
+Cape May Cafe,Resorts,Table Service,90002482,,AP (10%) | DVC (10%),Character Breakfast / Seafood Dinner,cape-may-cafe,28.3708,-81.5592
+BoardWalk Deli,Resorts,Quick Service,,,None,Hot & Cold Deli Sandwiches,boardwalk-deli,28.3672,-81.5558
+AbracadaBar,Resorts,Lounge,,,AP (10%) | DVC (10%),Magician Themed Speakeasy,abracadabar,28.3668,-81.5561
+Crew's Cup Lounge,Resorts,Lounge,,,AP (10%) | DVC (10%),Secret: Famous Prime Rib Sandwich,crews-cup-lounge,28.3713,-81.5582
+Martha's Vineyard,Resorts,Lounge,,,AP (10%) | DVC (10%),Quiet Wine Bar; Great Wings,marthas-vineyard,28.3709,-81.5593
+Jiko – The Cooking Place,Resorts,Table Service,90002524,,AP (10%) | DVC (10%),Signature Dining; African Wines,jiko-the-cooking-place,28.3528,-81.6025
+Boma – Flavors of Africa,Resorts,Table Service,90002478,,AP (10%) | DVC (10%),Top-Rated Buffet; Zebra Domes,boma-flavors-of-africa,28.3530,-81.6023
+Sanaa,Resorts,Table Service,14850774,https://www.opentable.com/sanaa,AP (10%) | DVC (10%),Famous Bread Service; Savanna Views,sanaa,28.3551,-81.6026
+The Mara,Resorts,Quick Service,,,AP (10% Select),Get Zebra Domes here too,the-mara,28.3525,-81.6028
+Victoria Falls Lounge,Resorts,Lounge,,,AP (10%) | DVC (10%),Overlooks Boma; Great cocktails,victoria-falls-lounge,28.3531,-81.6024
+Sanaa Lounge,Resorts,Lounge,,,AP (10%) | DVC (10%),Walk-up only; Full Bread Service available,sanaa-lounge,28.3551,-81.6026
+Cape Town Lounge and Wine Bar,Resorts,Lounge,,,None,Inside Jiko; Specialized Wine list,cape-town-lounge-and-wine-bar,28.3528,-81.6025
+Uzima Springs Pool Bar,Resorts,Pool Bar,,,None,Jambo House; African Beers,uzima-springs-pool-bar,28.3520,-81.6032
+Maji Pool Bar,Resorts,Pool Bar,,,None,Kidani Village; African-inspired snacks,maji-pool-bar,28.3558,-81.6035
+Story Book Dining at Artist Point,Resorts,Table Service,90002466,,AP (10%) | DVC (10%),Character Dining (Snow White),story-book-dining-at-artist-point-with-snow-white,28.4095,-81.5732
+Whispering Canyon Cafe,Resorts,Table Service,90002628,,AP (10%) | DVC (10%),All-You-Care-to-Enjoy Skillets,whispering-canyon-cafe,28.4092,-81.5735
+Geyser Point Bar & Grill,Resorts,Lounge,,,AP (10%) | DVC (10%),Waterfront; Walk-up Waitlist Only,geyser-point-bar-and-grill,28.4103,-81.5732
+Roaring Fork,Resorts,Quick Service,,,None,Hidden Gem Breakfast & Snacks,roaring-fork,28.4096,-81.5738
+Territory Lounge,Resorts,Lounge,,,AP (10%) | DVC (10%),Great Charcuterie & Fondue,territory-lounge,28.4094,-81.5732
+Hoop-Dee-Doo Musical Revue,Resorts,Table Service,90002513,,AP (10% Cat 2/3),Dinner Show; Pre-payment required,hoop-dee-doo-musical-revue,28.4111,-81.5620
+Trail's End Restaurant,Resorts,Quick Service,,,None,Marketplace Style Seating,trails-end-restaurant,28.4111,-81.5618
+P&J's Southern Takeout,Resorts,Quick Service,,,None,Fried Chicken & Ribs to-go,p-js-southern-takeout,28.4111,-81.5619
+Crockett's Tavern,Resorts,Lounge,,,AP (10%) | DVC (10%),Moonshine Cocktails & Charcuterie,crocketts-tavern,28.4110,-81.5617
+Topolino's Terrace,Resorts,Table Service,19308693,,AP (10%) | DVC (10%),Character Breakfast / Signature Dinner,topolinos-terrace,28.3663,-81.5451
+Primo Piatto,Resorts,Quick Service,,,AP (10% Select),Top-tier QS; Try the Croque Madame,primo-piatto,28.3662,-81.5450
+Le Petit Café,Resorts,Quick Service,,,None,Coffee in AM; Wine Bar in PM,le-petit-cafe,28.3664,-81.5451
+Bar Riva,Resorts,Lounge,,,AP (10%) | DVC (10%),Open-air Poolside Bistro,bar-riva,28.3661,-81.5450
+Toledo – Tapas Steak & Seafood,Resorts,Table Service,19301980,,AP (10%) | DVC (10%),Rooftop Views; Spanish Cuisine,toledo-tapas-steak-seafood,28.3664,-81.5714
+Three Bridges Bar & Grill,Resorts,Table Service,19302117,,AP (10%) | DVC (10%),On the Water; Mobile Walk-up Waitlist,three-bridges-bar-and-grill,28.3650,-81.5705
+Maya Grill,Resorts,Table Service,90002542,https://www.opentable.com/maya-grill,AP (10%) | DVC (10%),Mexican Steakhouse,maya-grill,28.3644,-81.5720
+Rix Sports Bar & Grill,Resorts,Table Service,18884666,https://www.opentable.com/rix-sports-bar-and-grill,AP (10%) | DVC (10%),Great for Game Days,rix-sports-bar-and-grill,28.3658,-81.5715
+El Mercado de Coronado,Resorts,Quick Service,,,None,Large Food Court,el-mercado-de-coronado,28.3657,-81.5718
+Barcelona Lounge,Resorts,Lounge,,,None,Coffee in AM; Gin & Tonic Bar in PM,barcelona-lounge,28.3664,-81.5714
+Dahlia Lounge,Resorts,Lounge,,,None,Rooftop Views; Tapas available,dahlia-lounge,28.3664,-81.5714
+Laguna Bar,Resorts,Lounge,,,None,Outdoor Lakeside Cocktails,laguna-bar,28.3648,-81.5725
+Siestas Cantina,Resorts,Pool Bar,,,None,Poolside snacks & drinks,siestas-cantina,28.3662,-81.5735
+Sebastian's Bistro,Resorts,Table Service,18820638,,AP (10%) | DVC (10%),Family-Style; Great Value,sebastians-bistro,28.3615,-81.5422
+Spyglass Grill,Resorts,Quick Service,,,None,Hidden Gem; Unique Poolside Menu,spyglass-grill,28.3582,-81.5415
+Centertown Market,Resorts,Quick Service,,,AP (10% Select),Island-themed food court,centertown-market,28.3615,-81.5422
+Banana Cabana,Resorts,Lounge,,,AP (10%) | DVC (10%),Tropical Vibe; Great Wings,banana-cabana,28.3614,-81.5420
+Boatwright's Dining Hall,Resorts,Table Service,90002479,,AP (10%) | DVC (10%),Southern Comfort Food,boatwrights-dining-hall,28.3908,-81.5173
+Riverside Mill Food Court,Resorts,Quick Service,,,None,Scenic Mill Wheel Views,riverside-mill-food-court,28.3912,-81.5175
+River Roost Lounge,Resorts,Lounge,,,None,Home of Yehaa Bob Jackson,river-roost-lounge,28.3906,-81.5172
+Sassagoula Floatworks and Food Factory,Resorts,Quick Service,,,None,Mardi Gras Theme; Great Gumbo,sassagoula-floatworks-and-food-factory,28.3815,-81.5145
+Scat Cat's Club – Lounge,Resorts,Lounge,,,AP (10%) | DVC (10%),Live Jazz (Select Nights),scat-cats-club-lounge,28.3812,-81.5143
+Scat Cat's Club – Café,Resorts,Snack,,,None,Home of Mickey Beignets,scat-cats-club-cafe,28.3813,-81.5143
+Muddy Rivers,Resorts,Pool Bar,,,None,Riverside Ol' Man Island bar,muddy-rivers,28.3922,-81.5175
+Mardi Grogs,Resorts,Pool Bar,,,None,French Quarter Poolside Drinks,mardi-grogs,28.3825,-81.5148
+Olivia's Cafe,Resorts,Table Service,90002556,https://www.opentable.com/olivias-cafe,AP (10%) | DVC (10%) | Visa (10% B/L),Island Home Cooking; Great Brunch,olivias-cafe,28.3742,-81.5348
+Good's Food to Go,Resorts,Quick Service,,,None,Key Lime Dole Whip location,goods-food-to-go,28.3740,-81.5350
+Gurgling Suitcase,Resorts,Lounge,,,AP (10%) | DVC (10%),Turtle Krawl specialty; Small hidden gem,gurgling-suitcase,28.3741,-81.5349
+The Turf Club Bar & Grill,Resorts,Table Service,90002625,,AP (10%) | DVC (10%),Signature Steakhouse feel; Quiet gem,the-turf-club-bar-and-grill,28.3768,-81.5204
+The Artist's Palette,Resorts,Quick Service,,,AP (10% Select),Artist Loft theme; Fresh flatbreads,artists-palette,28.3765,-81.5202
+The Paddock Grill,Resorts,Quick Service,,,None,Poolside breakfast & lunch,the-paddock-grill,28.3725,-81.5225
+Landscape of Flavors,Resorts,Quick Service,,,None,Highly-rated variety; Themed rooms,landscape-of-flavors,28.3496,-81.5516
+Everything POP Shopping & Dining,Resorts,Quick Service,,,None,Famous for Tie-Dye Cheesecake,everything-pop-shopping-and-dining,28.3512,-81.5505
+World Premiere Food Court,Resorts,Quick Service,,,None,Movie theater lobby theme,world-premiere-food-court,28.3401,-81.5768
+Intermission Food Court,Resorts,Quick Service,,,None,Music-themed dining,intermission-food-court,28.3435,-81.5748
+End Zone Food Court,Resorts,Quick Service,,,None,Sports-themed dining,end-zone-food-court,28.3475,-81.5732
+The Drop Off Pool Bar,Resorts,Pool Bar,,,None,Art of Animation poolside,the-drop-off-pool-bar,28.3503,-81.5515
+Petals Pool Bar,Resorts,Pool Bar,,,None,Pop Century Hippy Dippy Pool,petals-pool-bar,28.3518,-81.5502
+Silver Screen Spirits Pool Bar,Resorts,Pool Bar,,,None,All-Star Movies poolside,silver-screen-spirits-pool-bar,28.3405,-81.5765
+Singing Spirits Pool Bar,Resorts,Pool Bar,,,None,All-Star Music poolside,singing-spirits-pool-bar,28.3438,-81.5745
+Grandstand Spirits Pool Bar,Resorts,Pool Bar,,,None,All-Star Sports poolside,grandstand-spirits-pool-bar,28.3478,-81.5730
+Bourbon Steak by Michael Mina,Resorts,Table Service,,https://www.opentable.com/r/bourbon-steak-orlando,AP (10-20% Seasonal),Michael Mina Signature; Opened 2025,bourbon-steak,28.3662,-81.5585
+Todd English's bluezoo,Resorts,Table Service,,https://www.opentable.com/todd-englishs-bluezoo,AP (20%),Award-winning Seafood & Glass Bar,bluezoo,28.3665,-81.5588
+Shula's Steak House,Resorts,Table Service,,https://www.opentable.com/shulas-steak-house-orlando,AP (20%),Premier Steakhouse; No Disney Gift Cards,shulas-steak-house,28.3668,-81.5582
+Rosa Mexicano,Resorts,Table Service,,https://www.opentable.com/r/rosa-mexicano-walt-disney-world-dolphin-lake-buena-vista,AP (20%),Tableside Guacamole; Modern Mexican,rosa-mexicano,28.3664,-81.5580
+The Fountain,Resorts,Table Service,,https://www.opentable.com/r/the-fountain-at-the-dolphin-lake-buena-vista,AP (20%),1950s Diner & Ice Cream,the-fountain,28.3662,-81.5582
+Cabana Bar and Beach Club,Resorts,Table Service,,https://www.opentable.com/r/cabana-bar-and-beach-club-walt-disney-world-dolphin-lake-buena-vista,AP (20%),Poolside Dining; Sophisticated vibe,cabana-bar-and-beach-club,28.3658,-81.5585
+Phins,Resorts,Lounge,,,None,Lobby Centerpiece Bar; Craft Cocktails,phins,28.3665,-81.5584
+Fuel,Resorts,Quick Service,,,None,High-end Grab-and-go; Great Coffee,fuel,28.3667,-81.5584
+Il Mulino New York Trattoria,Resorts,Table Service,,https://www.opentable.com/il-mulino-new-york-trattoria-walt-disney-world-swan,AP (20%),Authentic Italian; Best-rated Pasta,il-mulino-new-york-trattoria,28.3685,-81.5588
+Kimonos,Resorts,Table Service,,https://www.opentable.com/r/kimonos-walt-disney-world-swan,AP (20%),Award-winning Sushi; Karaoke at 9:30pm,kimonos,28.3682,-81.5585
+Garden Grove,Resorts,Table Service,,https://www.opentable.com/garden-grove,AP (20%),Central Park Theme; Great for Breakfast,garden-grove,28.3684,-81.5582
+Il Mulino Lounge,Resorts,Lounge,,,None,Italian Wine Bar; Small Bites,il-mulino-lounge,28.3685,-81.5588
+Java Bar,Resorts,Quick Service,,,None,Swan Lobby Coffee; Fast Service,java-bar,28.3685,-81.5584
+Amare,Resorts,Table Service,,https://www.opentable.com/r/amare-swan-reserve-lake-buena-vista,AP (10-20% Seasonal),Mediterranean; Boutique atmosphere,amare,28.3648,-81.5585
+Stir,Resorts,Lounge,,,None,Swan Reserve Lobby; Airy & Modern,stir,28.3648,-81.5584
+Tangerine,Resorts,Table Service,,https://www.opentable.com/r/tangerine-swan-reserve-lake-buena-vista,None,Poolside; Best Flatbreads at Swan,tangerine,28.3645,-81.5585
+Grounds,Resorts,Quick Service,,,None,Boutique Coffee; High-quality snacks,grounds,28.3648,-81.5583
+Leaning Palms,Typhoon Lagoon,Quick Service,,,None,Main Dining; Burgers & Rice Bowls,typhoon-lagoon/leaning-palms,28.3644,-81.5301
+Typhoon Tilly's,Typhoon Lagoon,Quick Service,,,None,Famous for Land and Sea Basket,typhoon-lagoon/typhoon-tillys,28.3648,-81.5288
+Snack Shack,Typhoon Lagoon,Quick Service,,,None,Dole Whip Flights & Fruit Bowls,typhoon-lagoon/snack-shack,28.3640,-81.5292
+Lowtide Lou's,Typhoon Lagoon,Quick Service,,,None,Sandwiches & Mickey Pretzels,typhoon-lagoon/lowtide-lous,28.3655,-81.5295
+Surf Doggies,Typhoon Lagoon,Quick Service,,,None,Hot Dogs & Turkey Legs,typhoon-lagoon/surf-doggies,28.3645,-81.5298
+Happy Landings Ice Cream,Typhoon Lagoon,Snack,,,None,Home of the Sand Pail Sundae,typhoon-lagoon/happy-landings-ice-cream,28.3642,-81.5305
+Let's Go Slurpin',Typhoon Lagoon,Lounge,,,None,Beachfront Tropical Cocktails,typhoon-lagoon/lets-go-slurpin,28.3638,-81.5308
+High 'N' Dry,Typhoon Lagoon,Lounge,,,None,Draft Beer & Custom Margaritas,typhoon-lagoon/high-n-dry,28.3643,-81.5312
+Hammerhead Fred's Dive Shop,Typhoon Lagoon,Lounge,,,None,Full Bar near the Shark Reef area,typhoon-lagoon/hammerhead-freds-dive-shop,28.3652,-81.5282
+Mini Donuts by Joffrey's,Typhoon Lagoon,Snack,,,20% AP | 20% DVC,Cult Favorite; Made Fresh Daily,typhoon-lagoon/joffreys-coffee-tea-mini-donuts,28.3641,-81.5315
+Arctic Dots,Typhoon Lagoon,Snack,,,None,Dippin' Dots style frozen treats,typhoon-lagoon/arctic-dots,28.3646,-81.5290
+Lottawatta Lodge,Blizzard Beach,Quick Service,,,None,Main Lodge; Flatbreads & Burgers,blizzard-beach/lottawatta-lodge,28.3524,-81.5755
+Avalunch,Blizzard Beach,Quick Service,,,None,Specialized Foot-long Hot Dogs,blizzard-beach/avalunch,28.3526,-81.5748
+Warming Hut,Blizzard Beach,Quick Service,,,None,BBQ Pork & Loaded Nachos,blizzard-beach/warming-hut,28.3520,-81.5738
+Cooling Hut,Blizzard Beach,Quick Service,,,None,Popcorn & Mickey Pretzels,blizzard-beach/cooling-hut,28.3518,-81.5755
+I.C. Expeditions,Blizzard Beach,Snack,,,None,Snow-plow themed sundaes,blizzard-beach/ic-expeditions,28.3528,-81.5750
+Arctic Expeditions,Blizzard Beach,Snack,,,None,Roasted Nuts & Churros,blizzard-beach/arctic-expeditions,28.3525,-81.5745
+Frostbite Freddy's,Blizzard Beach,Snack/Lounge,,,None,Frozen Cocktails & Refreshments,blizzard-beach/frostbite-freddys,28.3522,-81.5752
+Polar Pub,Blizzard Beach,Lounge,,,None,Beachfront Bar; Full Service,blizzard-beach/polar-pub,28.3516,-81.5750
+Mini Donuts by Joffrey's (Blizzard),Blizzard Beach,Snack,,,20% AP | 20% DVC,Fresh Donuts; Chocolate Dipping Sauce,blizzard-beach/joffreys-coffee-tea-mini-donuts-blizzard-beach,28.3526,-81.5758
+ESPN Wide World of Sports Grill,Wide World of Sports,Quick Service,,,None,Full Bar & Sports Bar Eats,espn-wide-world-of-sports-grill,28.3370,-81.5560
+Cilantro Urban Eatery,Wide World of Sports,Quick Service,,,None,Latin-inspired Street Food,espn-wide-world-of-sports-complex,28.3375,-81.5555
+4 Rivers: The Coop,Wide World of Sports,Quick Service,,,None,Southern Fried Chicken,espn-wide-world-of-sports-complex,28.3378,-81.5550
+4 Rivers: The Grill,Wide World of Sports,Quick Service,,,None,Barbecue & Smokehouse,espn-wide-world-of-sports-complex,28.3378,-81.5548
+AdventHealth Arena Concessions,Wide World of Sports,Quick Service,,,None,Standard Arena Snacks,espn-wide-world-of-sports-complex,28.3365,-81.5565
+Joffrey's Coffee (ESPN),Wide World of Sports,Snack/Kiosk,,,20% AP | 20% DVC,Sports Complex Kiosk,joffreys-coffee-tea-revive,28.3372,-81.5558
+Chip 'n' Dale's Deli,Resorts/Golf,Quick Service,,,None,Magnolia/Palm Course Snack,chip-n-dales-deli,28.4010,-81.5890
+Chip 'n' Dale's Café,Resorts/Golf,Quick Service,,,None,LBV Golf Course (Saratoga),chip-n-dales-cafe,28.3768,-81.5204
+Sandals Bar,Resorts/Golf,Lounge,,,None,Outdoor Golfers Bar,chip-n-dales-deli,28.4012,-81.5892
