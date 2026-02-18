@@ -79,7 +79,7 @@ L’Artisan des Glaces,Epcot,Snack/Kiosk,,,None,,l-artisan-des-glaces,28.3682,-8
 La Cava del Tequila,Epcot,Lounge,,,None,,la-cava-del-tequila,28.3694,-81.5475
 Rose & Crown Pub,Epcot,Lounge,,,None,,rose-and-crown-pub,28.3697,-81.5504
 Space 220 Lounge,Epcot,Lounge,19557342,,10% AP Discount,,space-220-lounge,28.3758,-81.5482
-Tutto Gusto Wine Cellar,Epcot,Lounge,,,10% AP,,10% DVC,,tutto-gusto-wine-cellar,28.3695,-81.5435
+Tutto Gusto Wine Cellar,Epcot,Lounge,,,"10% AP,,10% DVC",,tutto-gusto-wine-cellar,28.3695,-81.5435
 50's Prime Time Café,Hollywood Studios,Table Service,90002458,,AP (10%) | DVC (10%),,50s-prime-time-cafe,28.3564,-81.5601
 Hollywood & Vine,Hollywood Studios,Table Service,90002518,,AP (10%) | DVC (10%),,hollywood-and-vine,28.3562,-81.5606
 The Hollywood Brown Derby,Hollywood Studios,Table Service,90002517,,AP (10%) | DVC (10%),,hollywood-brown-derby,28.3566,-81.5587
@@ -338,3 +338,4 @@ Joffrey's Coffee (ESPN),Wide World of Sports,Snack/Kiosk,,,20% AP | 20% DVC,Spor
 Chip 'n' Dale's Deli,Resorts/Golf,Quick Service,,,None,Magnolia/Palm Course Snack,chip-n-dales-deli,28.4010,-81.5890
 Chip 'n' Dale's Café,Resorts/Golf,Quick Service,,,None,LBV Golf Course (Saratoga),chip-n-dales-cafe,28.3768,-81.5204
 Sandals Bar,Resorts/Golf,Lounge,,,None,Outdoor Golfers Bar,chip-n-dales-deli,28.4012,-81.5892
+
