@@ -1,4 +1,4 @@
-name,loc,type,id,ot,disc,hh,slug,lat,lon, tips
+name,loc,type,id,ot,disc,hh,slug,lat,lon,tips
 Be Our Guest Restaurant,Magic Kingdom,Table Service,90002476,,AP (10%) | DVC (10%),,be-our-guest-restaurant,28.4214,-81.5809
 Cinderella's Royal Table,Magic Kingdom,Table Service,90002488,,AP (10%) | DVC (10%),,cinderellas-royal-table,28.4195,-81.5812
 The Crystal Palace,Magic Kingdom,Table Service,90002492,,AP (10%) | DVC (10%) | Visa (10%),,crystal-palace,28.4182,-81.5815
@@ -338,4 +338,5 @@ Joffrey's Coffee (ESPN),Wide World of Sports,Snack/Kiosk,,,20% AP | 20% DVC,Spor
 Chip 'n' Dale's Deli,Resorts/Golf,Quick Service,,,None,Magnolia/Palm Course Snack,chip-n-dales-deli,28.4010,-81.5890
 Chip 'n' Dale's Café,Resorts/Golf,Quick Service,,,None,LBV Golf Course (Saratoga),chip-n-dales-cafe,28.3768,-81.5204
 Sandals Bar,Resorts/Golf,Lounge,,,None,Outdoor Golfers Bar,chip-n-dales-deli,28.4012,-81.5892
+
 
