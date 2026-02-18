@@ -99,9 +99,17 @@ with tab_list:
             with c1:
                 st.link_button("📖 Menu", f"https://disneyworld.disney.go.com/dining/{row['slug']}/menus/", use_container_width=True)
             with c2:
-                if row['id']:
-                    res_url = f"https://disneyworld.disney.go.com/dining-res/restaurant-search/booking-details/?restaurantId={int(float(row['id']))}&date={f_date}&partySize={party}"
-                    st.link_button("📅 Disney", res_url, type="primary", use_container_width=True)
+                # Check if id exists and is not empty/null
+                if row['id'] and str(row['id']).strip() != "":
+                    try:
+                        # Convert to int to remove any .0 from the CSV
+                        clean_id = int(float(row['id']))
+                        res_url = f"https://disneyworld.disney.go.com/dining-res/restaurant-search/booking-details/?restaurantId={clean_id}&date={f_date}&partySize={party}"
+                        st.link_button("📅 Disney", res_url, type="primary", use_container_width=True)
+                    except:
+                        st.write("ID Error")
+                else:
+                    st.write("Walk-up Only")
             with c3:
                 if row['ot']:
                     st.link_button("🟢 OpenTable", row['ot'], use_container_width=True)
