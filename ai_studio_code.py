@@ -100,7 +100,9 @@ with tab_list:
             # Action Buttons
             c1, c2, c3 = st.columns(3)
             with c1:
-                st.link_button("📖 Menu", f"https://disneyworld.disney.go.com/dining/{row['slug']}/menus/", use_container_width=True)
+                # Link to the main page instead of /menus/ to prevent 404s
+                main_url = f"https://disneyworld.disney.go.com/dining/{row['slug']}/"
+                st.link_button("📖 Menu", main_url, use_container_width=True)
             with c2:
                 if row['id'] and str(row['id']).strip() != "":
                     try:
