@@ -23,12 +23,20 @@ st.markdown("""
 # --- LOAD DATA ---
 @st.cache_data
 def load_data():
-    df = pd.read_csv("dining_locations.csv")
+    # 'on_bad_lines' handles the comma errors we saw earlier
+    df = pd.read_csv("dining_locations.csv", on_bad_lines='skip')
+    
+    # Clean up column names (removes hidden spaces)
+    df.columns = df.columns.str.strip()
+    
     # Fill empty columns to avoid errors
     cols_to_fix = ['disc', 'hh', 'tips', 'ot', 'id']
     for col in cols_to_fix:
         if col in df.columns:
             df[col] = df[col].fillna("")
+        else:
+            # If the column is missing entirely from CSV, create it as empty
+            df[col] = ""
     return df
 
 try:
@@ -37,11 +45,11 @@ except Exception as e:
     st.error(f"Error loading CSV: {e}")
     st.stop()
 
-# --- SIDEBAR: TRIP PLANNER ---
+# --- SIDEBAR ---
 with st.sidebar:
     st.header("📝 My Trip Notes")
-    my_notes = st.text_area("Save your ADR times or food goals here:", 
-                            placeholder="7:15 PM - Be Our Guest\nTry the Peanut Butter Cold Brew...")
+    st.text_area("Save your ADR times or food goals here:", 
+                 placeholder="7:15 PM - Be Our Guest\nTry the Peanut Butter Cold Brew...")
     
     st.divider()
     st.header("⚙️ Settings")
@@ -59,14 +67,13 @@ if loc_filter != "All":
     filtered = filtered[filtered['loc'] == loc_filter]
 filtered = filtered[filtered['type'].isin(type_filter)]
 
-search = st.text_input("🔍 Search (e.g. 'Steak', 'Fireworks', 'Noodles')...", "")
+search = st.text_input("🔍 Search names, locations, or food items...", "")
 if search:
-    # This searches Name, Location, AND the Tips
-    filtered = filtered[
-        filtered['name'].str.contains(search, case=False) | 
-        filtered['loc'].str.contains(search, case=False) |
-        filtered['tips'].str.contains(search, case=False)
-    ]
+    # Use a safer search that handles missing 'tips' column
+    mask = filtered['name'].str.contains(search, case=False) | filtered['loc'].str.contains(search, case=False)
+    if 'tips' in filtered.columns:
+        mask = mask | filtered['tips'].str.contains(search, case=False)
+    filtered = filtered[mask]
 
 # --- UI ---
 st.title("🏰 WDW Dining Scout")
@@ -77,39 +84,31 @@ with tab_list:
     st.caption(f"Showing {len(filtered)} results")
     for _, row in filtered.iterrows():
         with st.container(border=True):
-            # Header
-            col_h1, col_h2 = st.columns([3, 1])
-            with col_h1:
-                st.subheader(row['name'])
-                st.caption(f"📍 {row['loc']} | {row['type']}")
-            with col_h2:
-                if row['disc']:
-                    st.button(f"🏷️ {row['disc'][:15]}...", help=row['disc'], key=f"d_{_}")
+            st.subheader(row['name'])
+            st.caption(f"📍 {row['loc']} | {row['type']}")
 
-            # INSIDER TIP BOX
-            if row['tips']:
+            # INSIDER TIP BOX (Safely check if 'tips' exists and isn't empty)
+            if 'tips' in row and row['tips']:
                 st.info(f"💡 **Insider Tip:** {row['tips']}")
 
-            # Happy Hour
-            if row['hh']:
+            if 'hh' in row and row['hh']:
                 st.success(f"🍸 **Happy Hour:** {row['hh']}")
+
+            if 'disc' in row and row['disc']:
+                st.warning(f"🏷️ **Discounts:** {row['disc']}")
             
             # Action Buttons
             c1, c2, c3 = st.columns(3)
             with c1:
                 st.link_button("📖 Menu", f"https://disneyworld.disney.go.com/dining/{row['slug']}/menus/", use_container_width=True)
             with c2:
-                # Check if id exists and is not empty/null
                 if row['id'] and str(row['id']).strip() != "":
                     try:
-                        # Convert to int to remove any .0 from the CSV
                         clean_id = int(float(row['id']))
                         res_url = f"https://disneyworld.disney.go.com/dining-res/restaurant-search/booking-details/?restaurantId={clean_id}&date={f_date}&partySize={party}"
                         st.link_button("📅 Disney", res_url, type="primary", use_container_width=True)
                     except:
-                        st.write("ID Error")
-                else:
-                    st.write("Walk-up Only")
+                        st.caption("Res ID Error")
             with c3:
                 if row['ot']:
                     st.link_button("🟢 OpenTable", row['ot'], use_container_width=True)
