@@ -18,7 +18,7 @@ st.markdown("""
         margin: 10px 0px;
     }
     </style>
-    """, unsafe_allow_Special_tags=True)
+    """, unsafe_allow_html=True)
 
 # --- LOAD DATA ---
 @st.cache_data
