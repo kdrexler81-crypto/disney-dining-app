@@ -3,6 +3,7 @@ import pandas as pd
 import folium
 from streamlit_folium import st_folium
 from datetime import datetime
+import urllib.parse
 
 # --- APP CONFIG ---
 st.set_page_config(page_title="WDW Dining Scout", page_icon="🏰", layout="centered")
@@ -10,114 +11,102 @@ st.set_page_config(page_title="WDW Dining Scout", page_icon="🏰", layout="cent
 # --- STYLE ---
 st.markdown("""
     <style>
-    .tip-box {
-        background-color: #f0f2f6;
-        border-left: 5px solid #ffca28;
-        padding: 10px;
-        border-radius: 5px;
-        margin: 10px 0px;
-    }
+    .stButton>button { width: 100%; border-radius: 8px; }
+    .css-1r6slb0 { padding: 10px; }
     </style>
     """, unsafe_allow_html=True)
 
 # --- LOAD DATA ---
 @st.cache_data
 def load_data():
-    # 'on_bad_lines' handles the comma errors we saw earlier
+    # 'on_bad_lines' handles the comma errors
     df = pd.read_csv("dining_locations.csv", on_bad_lines='skip')
-    
-    # Clean up column names (removes hidden spaces)
     df.columns = df.columns.str.strip()
     
-    # Fill empty columns to avoid errors
-    cols_to_fix = ['disc', 'hh', 'tips', 'ot', 'id']
-    for col in cols_to_fix:
-        if col in df.columns:
-            df[col] = df[col].fillna("")
-        else:
-            # If the column is missing entirely from CSV, create it as empty
+    cols = ['name', 'loc', 'type', 'id', 'ot', 'disc', 'hh', 'slug', 'lat', 'lon', 'tips']
+    for col in cols:
+        if col not in df.columns:
             df[col] = ""
+        df[col] = df[col].fillna("").astype(str).str.strip()
     return df
 
-try:
-    df = load_data()
-except Exception as e:
-    st.error(f"Error loading CSV: {e}")
-    st.stop()
+df = load_data()
 
 # --- SIDEBAR ---
 with st.sidebar:
-    st.header("📝 My Trip Notes")
-    st.text_area("Save your ADR times or food goals here:", 
-                 placeholder="7:15 PM - Be Our Guest\nTry the Peanut Butter Cold Brew...")
+    st.header("⚙️ Reservation Info")
+    party = st.selectbox("Party Size", range(1, 11), index=1)
+    # Note: We use this to show you the date, but the cleanest links work best when 
+    # letting Disney's mobile site handle the calendar picker.
+    res_date = st.date_input("Target Date", datetime.today())
     
     st.divider()
-    st.header("⚙️ Settings")
-    party = st.number_input("Party Size", 1, 20, 2)
-    date = st.date_input("Date", datetime.today())
-    f_date = date.strftime("%Y-%m-%d")
-    
-    st.divider()
-    loc_filter = st.selectbox("Location", ["All"] + sorted(df['loc'].unique().tolist()))
+    loc_filter = st.selectbox("Filter Location", ["All"] + sorted(df['loc'].unique().tolist()))
     type_filter = st.multiselect("Category", df['type'].unique(), default=df['type'].unique())
 
-# --- FILTERING LOGIC ---
+# --- FILTER LOGIC ---
 filtered = df.copy()
 if loc_filter != "All":
     filtered = filtered[filtered['loc'] == loc_filter]
 filtered = filtered[filtered['type'].isin(type_filter)]
 
-search = st.text_input("🔍 Search names, locations, or food items...", "")
+search = st.text_input("🔍 Search (e.g. Steak, Noodles, Fireworks)", "")
 if search:
-    # Use a safer search that handles missing 'tips' column
-    mask = filtered['name'].str.contains(search, case=False) | filtered['loc'].str.contains(search, case=False)
-    if 'tips' in filtered.columns:
-        mask = mask | filtered['tips'].str.contains(search, case=False)
+    mask = filtered['name'].str.contains(search, case=False) | \
+           filtered['loc'].str.contains(search, case=False) | \
+           filtered['tips'].str.contains(search, case=False)
     filtered = filtered[mask]
 
-# --- UI ---
+# --- MAIN UI ---
 st.title("🏰 WDW Dining Scout")
 
 tab_list, tab_map = st.tabs(["📋 Restaurant List", "📍 Map View"])
 
 with tab_list:
-    st.caption(f"Showing {len(filtered)} results")
     for _, row in filtered.iterrows():
         with st.container(border=True):
             st.subheader(row['name'])
             st.caption(f"📍 {row['loc']} | {row['type']}")
-
-            # INSIDER TIP BOX (Safely check if 'tips' exists and isn't empty)
-            if 'tips' in row and row['tips']:
-                st.info(f"💡 **Insider Tip:** {row['tips']}")
-
-            if 'hh' in row and row['hh']:
-                st.success(f"🍸 **Happy Hour:** {row['hh']}")
-
-            if 'disc' in row and row['disc']:
-                st.warning(f"🏷️ **Discounts:** {row['disc']}")
             
-            # Action Buttons
+            if row['tips']:
+                st.info(f"💡 {row['tips']}")
+            
+            # ACTION BUTTONS
             c1, c2, c3 = st.columns(3)
+            
+            # 1. MENU LINK
+            # The safest menu link is the search-redirect or the base URL
             with c1:
-                # Link to the main page instead of /menus/ to prevent 404s
-                main_url = f"https://disneyworld.disney.go.com/dining/{row['slug']}/"
-                st.link_button("📖 Menu", main_url, use_container_width=True)
+                menu_url = f"https://disneyworld.disney.go.com/dining/{row['slug']}/"
+                st.link_button("📖 Menu", menu_url)
+
+            # 2. DISNEY RESERVATION LINK
+            # We use the 'Storefront' ID link which is the most stable URL Disney has
             with c2:
-                if row['id'] and str(row['id']).strip() != "":
+                if row['id'] and row['id'] != "":
                     try:
-                        clean_id = int(float(row['id']))
-                        # Updated robust URL format
-                        res_url = f"https://disneyworld.disney.go.com/dining-res/restaurant-search/results/?searchDate={f_date}&searchTime=80000002&partySize={party}&id={clean_id}&type=restaurant"
-                        st.link_button("📅 Disney", res_url, type="primary", use_container_width=True)
+                        clean_id = str(int(float(row['id'])))
+                        # This URL is the "Golden Link" - it opens the restaurant's 
+                        # booking page directly and reliably.
+                        disney_res_url = f"https://disneyworld.disney.go.com/dining-res/restaurant-search/results/?id={clean_id}&type=restaurant"
+                        st.link_button("📅 Disney", disney_res_url, type="primary")
                     except:
-                        st.caption("Res ID Error")
+                        st.write("---")
+                else:
+                    st.caption("Walk-up")
+
+            # 3. OPENTABLE LINK
             with c3:
-                if row['ot']:
-                    st.link_button("🟢 OpenTable", row['ot'], use_container_width=True)
+                if row['ot'] and "opentable.com" in row['ot']:
+                    st.link_button("🟢 OpenTable", row['ot'])
 
 with tab_map:
-    map_df = filtered.dropna(subset=['lat', 'lon'])
+    # Ensure lat/lon are numeric
+    map_df = filtered.copy()
+    map_df['lat'] = pd.to_numeric(map_df['lat'], errors='coerce')
+    map_df['lon'] = pd.to_numeric(map_df['lon'], errors='coerce')
+    map_df = map_df.dropna(subset=['lat', 'lon'])
+    
     if not map_df.empty:
         m = folium.Map(location=[map_df['lat'].mean(), map_df['lon'].mean()], zoom_start=13)
         for _, row in map_df.iterrows():
