@@ -1,11 +1,11 @@
 name,loc,type,id,ot,disc,hh,slug,lat,lon,tips
-Be Our Guest Restaurant,Magic Kingdom,Table Service,90002476,,AP (10%) | DVC (10%),,be-our-guest-restaurant,28.4214,-81.5809
-Cinderella's Royal Table,Magic Kingdom,Table Service,90002488,,AP (10%) | DVC (10%),,cinderellas-royal-table,28.4195,-81.5812
-The Crystal Palace,Magic Kingdom,Table Service,90002492,,AP (10%) | DVC (10%) | Visa (10%),,crystal-palace,28.4182,-81.5815
-The Diamond Horseshoe,Magic Kingdom,Table Service,90002497,,AP (10%) | DVC (10%) | Visa (10%),,diamond-horseshoe,28.4189,-81.5836
-Liberty Tree Tavern,Magic Kingdom,Table Service,90002525,,AP (10%) | DVC (10%) | Visa (10%),,liberty-tree-tavern,28.4194,-81.5825
-The Plaza Restaurant,Magic Kingdom,Table Service,90002580,,AP (10%) | DVC (10%) | Visa (10%),,plaza-restaurant,28.4189,-81.5810
-Skipper Canteen,Magic Kingdom,Table Service,18118080,,AP (10%) | DVC (10%) | Visa (10%),,skipper-canteen,28.4183,-81.5842
+Be Our Guest Restaurant,Magic Kingdom,Table Service,90002476,,AP (10%) | DVC (10%),,be-our-guest-restaurant,28.4214,-81.5809,Includes access to the West Wing. Try the Gray Stuff!
+Cinderella's Royal Table,Magic Kingdom,Table Service,90002488,,AP (10%) | DVC (10%),,cinderellas-royal-table,28.4195,-81.5812,
+The Crystal Palace,Magic Kingdom,Table Service,90002492,,AP (10%) | DVC (10%) | Visa (10%),,crystal-palace,28.4182,-81.5815,
+The Diamond Horseshoe,Magic Kingdom,Table Service,90002497,,AP (10%) | DVC (10%) | Visa (10%),,diamond-horseshoe,28.4189,-81.5836,
+Liberty Tree Tavern,Magic Kingdom,Table Service,90002525,,AP (10%) | DVC (10%) | Visa (10%),,liberty-tree-tavern,28.4194,-81.5825,
+The Plaza Restaurant,Magic Kingdom,Table Service,90002580,,AP (10%) | DVC (10%) | Visa (10%),,plaza-restaurant,28.4189,-81.5810,
+Skipper Canteen,Magic Kingdom,Table Service,18118080,,AP (10%) | Visa (10%),,skipper-canteen,28.4183,-81.5842,Best value for Disney Visa holders. Ask about the secret menu S.E.A. appetizers.
 Tony's Town Square Restaurant,Magic Kingdom,Table Service,90002621,,AP (10%) | DVC (10%) | Visa (10%),,tonys-town-square-restaurant,28.4172,-81.5810
 Casey's Corner,Magic Kingdom,Quick Service,,,None,,caseys-corner,28.4177,-81.5814
 Columbia Harbour House,Magic Kingdom,Quick Service,,,None,,columbia-harbour-house,28.4201,-81.5828
@@ -45,7 +45,7 @@ Le Cellier Steakhouse,Epcot,Table Service,90002523,,AP (10%) | DVC (10%),,le-cel
 Monsieur Paul,Epcot,Table Service,90002543,,None,,monsieur-paul,28.3684,-81.5479
 Nine Dragons Restaurant,Epcot,Table Service,90002553,,AP (10%) | DVC (10%),,nine-dragons-restaurant,28.3713,-81.5461
 Rose & Crown Dining Room,Epcot,Table Service,90002591,,AP (10%) | DVC (10%),,rose-and-crown-dining-room,28.3696,-81.5505
-San Angel Inn Restaurante,Epcot,Table Service,90002593,https://www.opentable.com/r/san-angel-inn-lake-buena-vista,AP (10%) | DVC (10%),,san-angel-inn-restaurante,28.3692,-81.5478
+San Angel Inn,Epcot,Table Service,90002593,https://www.opentable.com/r/san-angel-inn-lake-buena-vista,AP (10%),,san-angel-inn-restaurante,28.3692,-81.5478,Ask for a table near the water to watch the Gran Fiesta Tour boats pass by.
 Shiki-Sai: Sushi Izakaya,Epcot,Table Service,19688756,,AP (10%) | DVC (10%),,shiki-sai-sushi-izakaya,28.3678,-81.5440
 Space 220 Restaurant,Epcot,Table Service,19515902,,10% AP (Lunch/Lounge Only),,space-220-restaurant,28.3758,-81.5482
 Spice Road Table,Epcot,Table Service,17616238,,AP (10%) | DVC (10%),,spice-road-table,28.3678,-81.5463
@@ -78,7 +78,7 @@ Karamell-Küche,Epcot,Snack/Kiosk,,,20% AP (Pre-packaged),,karamell-kuche,28.370
 L’Artisan des Glaces,Epcot,Snack/Kiosk,,,None,,l-artisan-des-glaces,28.3682,-81.5475
 La Cava del Tequila,Epcot,Lounge,,,None,,la-cava-del-tequila,28.3694,-81.5475
 Rose & Crown Pub,Epcot,Lounge,,,None,,rose-and-crown-pub,28.3697,-81.5504
-Space 220 Lounge,Epcot,Lounge,19557342,,10% AP Discount,,space-220-lounge,28.3758,-81.5482
+Space 220 Lounge,Epcot,Lounge,19557342,,10% AP (Lunch/Lounge Only),,space-220-lounge,28.3758,-81.5482,Easier to book than the restaurant. You can order the full menu or just drinks/apps.
 Tutto Gusto Wine Cellar,Epcot,Lounge,,,"10% AP,,10% DVC",,tutto-gusto-wine-cellar,28.3695,-81.5435
 50's Prime Time Café,Hollywood Studios,Table Service,90002458,,AP (10%) | DVC (10%),,50s-prime-time-cafe,28.3564,-81.5601
 Hollywood & Vine,Hollywood Studios,Table Service,90002518,,AP (10%) | DVC (10%),,hollywood-and-vine,28.3562,-81.5606
@@ -338,6 +338,7 @@ Joffrey's Coffee (ESPN),Wide World of Sports,Snack/Kiosk,,,20% AP | 20% DVC,Spor
 Chip 'n' Dale's Deli,Resorts/Golf,Quick Service,,,None,Magnolia/Palm Course Snack,chip-n-dales-deli,28.4010,-81.5890
 Chip 'n' Dale's Café,Resorts/Golf,Quick Service,,,None,LBV Golf Course (Saratoga),chip-n-dales-cafe,28.3768,-81.5204
 Sandals Bar,Resorts/Golf,Lounge,,,None,Outdoor Golfers Bar,chip-n-dales-deli,28.4012,-81.5892
+
 
 
 
